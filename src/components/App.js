@@ -4,9 +4,10 @@ import KegControl from "./KegControl";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Header />
-    </React.Fragment>
+      <KegControl />
+    </>
   );
 }
 

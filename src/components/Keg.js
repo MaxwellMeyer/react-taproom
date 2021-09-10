@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Keg(props) {
+  let pintsAvailable =
+    props.pints > 0 ? props.pints : "Out of Stock, try again next week!!";
+
   return (
     <>
       <div onClick={() => props.whenKegClicked(props.id)}>
@@ -14,6 +17,9 @@ function Keg(props) {
         <p>
           <em>{props.abv}% ABV</em>
         </p>
+        <p>
+          <em>{pintsAvailable}pints of this Flavor Available!</em>
+        </p>
         <hr />
       </div>
     </>
@@ -25,8 +31,10 @@ Keg.propTypes = {
   brand: PropTypes.string,
   price: PropTypes.string,
   abv: PropTypes.number,
+  pints: PropTypes.number,
   id: PropTypes.string,
   whenKegClicked: PropTypes.func,
+  onClickSellPint: PropTypes.func,
 };
 
 export default Keg;
