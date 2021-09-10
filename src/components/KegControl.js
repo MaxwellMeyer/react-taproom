@@ -2,8 +2,8 @@
 import React from "react";
 import NewForm from "./NewForm";
 import KegList from "./KegList";
-import KegDetail from "./KegDetail";
 import EditForm from "./EditForm";
+import KegDetail from "./KegDetail";
 
 class KegControl extends React.Component {
   constructor(props) {
@@ -27,10 +27,6 @@ class KegControl extends React.Component {
         formVisibleOnPage: !prevState.formVisibleOnPage,
       }));
     }
-  };
-
-  handleEditClick = () => {
-    this.setState({ editing: true });
   };
 
   handleAddNewKegToList = (newKeg) => {
