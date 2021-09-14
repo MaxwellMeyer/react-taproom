@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+Tap Room
+Build a tap room in React where a bar or kombucha store can track their kegs. This could also be a soda fountain or another kind of tracker - as long as you're able to track the remaining amount and meet the objectives, you can be creative with this prompt.
+
+Before getting started, plan out your application and draw a component tree or component diagram that shows the structure of your components. This is a requirement for the project and should be included in your README. You may draw the structure on a piece of paper and take a picture of it or use an application like https://www.draw.io/.
+
+Keep in mind that you will only be expected to add CREATE and READ functionality, though you are welcome to implement full CRUD. Here are some user stories to get you started. The application should have the following functionality:
+
+As a user, I want to see a list/menu of all available kegs. For each keg, I want to see its name, brand, price and abv%.
+As a user, I want to submit a form to add a new keg to a list.
+As a user, I want to be able to click on a keg to see its detail page.
+As a user, I want to see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
+As a user, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+# Component Diagram
+
+<img width="815" alt="Screen Shot 2021-09-14 at 9 26 57 AM" src="https://user-images.githubusercontent.com/76924735/133297596-2de077ae-5c2b-4189-9a6e-d488e9388e21.png">
 
 ## Available Scripts
 
@@ -68,3 +87,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## License Information
+
+You can find all applicable licensing information [here](https://opensource.org/licenses/MIT).
+
+## Contact me!
+
+Maxwell Meyer
+
+maxreadswell@gmail.com
