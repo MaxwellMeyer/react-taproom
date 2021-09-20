@@ -20,6 +20,9 @@ function Keg(props) {
         <p>
           <em>{pintsAvailable}pints of this Flavor Available!</em>
         </p>
+        <button onClick={() => props.onClickSellPint(props.id)}>
+          Sell a Pint!
+        </button>
         <hr />
       </div>
     </>
