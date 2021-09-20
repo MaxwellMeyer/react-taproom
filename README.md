@@ -23,7 +23,15 @@ As a user, I want to be able to click a button next to a keg whenever I sell a p
 
 ## Available Scripts
 
-In the project directory, you can run:
+In order to start a development server and view the project in the browser:
+
+1. Clone the repository
+2. Navigate to the `tap-room` directory
+3. Open code with preferred text editor
+4. - Navigate to `tap-room` in the CLI
+   - Run `npm install` command to install dependencies
+   - Optional: Run `npm run build` command to bundle files
+   - Finally, run the `npm run start` command to start a development server
 
 ### `npm start`
 
